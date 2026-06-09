@@ -115,23 +115,3 @@ javac waste_scheduling_system/*.java
 Run the Application:
 Execute the main Admin class to launch the login portal.
 
-Bash
-java waste_scheduling_system.Admin
-📂 Project Structure (Admin Scope)
-The administrative functions are handled via anonymous inner classes bound to UI action listeners:
-
-Admin$1: Validates user credentials and handles login logic.
-
-Admin$2: Renders the schedule_table.
-
-Admin$3: Fetches and displays report_details.
-
-Admin$4: Loads customer_details for administrative review.
-
-Admin$5: Polls and displays status_details.
-
-Admin$6: Handles incoming request_details.
-
-Admin$7 & Admin$8: Triggers the Employee creation and deletion logic.
-
-Admin$10: UI handler for custom button styling and dynamic MouseAdapter hover effects.
